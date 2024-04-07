@@ -6,8 +6,8 @@
     --primary-background-color:#2F303A;
     --secundary-background-color:#F5F4FA;
     --border-color:#ECECEC;
-    --roboto-font:'Roboto' sans-serif;
-    --raleway-font:'Raleway' sans-serif;
+    --roboto-font:'Roboto', sans-serif;
+    --raleway-font:'Raleway', sans-serif;
 }
 body{
     font-family:var(--roboto-font);
@@ -64,7 +64,7 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
 }
 .hero-button{
     color: var(--white-color);
@@ -72,7 +72,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
 }
 /* About us */
 .about-us__lists{
@@ -91,7 +91,7 @@ body{
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
 }
 .style-h3{
 font-size: 16px;
@@ -137,7 +137,7 @@ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
     border: none;
     cursor: pointer;
 }
@@ -150,11 +150,11 @@ color: var(--white-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
 }
 .our-item__subtitle{
    color: var(--secundary-text-color);
     font-size: 16px;
     line-height: 30px;
-    font-family: var(--roboto-font);
+    font-family: inherit;
 }
